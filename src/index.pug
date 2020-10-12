@@ -1,10 +1,35 @@
-extends pug/base
-
-prepend vars
-	//-
-
-append vars
-	//-
-
-block content
-	//-
+doctype html
+head
+	meta(charset="UTF-8")
+	meta(name="viewport" content="width=device-width, initial-scale=1.0")
+	meta(http-equiv="X-UA-Compatible" content="ie=edge")
+	title Single price grid component challenge
+	link(rel="stylesheet" href="/css/main.css")
+main
+	h1.visually-hidden
+		| Single price grid component challenge
+	section.intro
+		h2.intro__title
+			| Join our community
+		p.intro__subtitle 30-day, hassle-free money back guarantee
+		p.intro__text
+			| Gain access to our full library of tutorials along
+			| with expert code reviews. Perfect for any developers who are serious
+			| about honing their skills.
+	section.subscribe
+		h2.subscribe__title Monthly Subscription
+		p.subscribe__price
+			span.subscribe__fee $29
+			|  per month
+		p.subscribe__text Full access for less than $1 a day
+		button Sign Up
+	section.about
+		h2.about__title Why Us
+		ul.about__list
+			li.about__item Tutorials by industry experts
+			li.about__item Peer &amp; expert code review
+			li.about__item Coding exercises
+			li.about__item Access to our GitHub repos
+			li.about__item Community forum
+			li.about__item Flashcard decks
+			li.about__item New videos every week
