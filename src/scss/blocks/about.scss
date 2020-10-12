@@ -1,0 +1,25 @@
+.about {
+	margin: 0;
+	padding: 40px 0 38px 40px;
+	width: 318px;
+	color: $color-white;
+	background-color: $color-fountain-blue;
+}
+
+.about__title {
+	margin: 0;
+	font-size: 18px;
+}
+
+.about__list {
+	list-style: none;
+	margin: 21px 0 0;
+	padding: 0;
+}
+
+.about__item {
+	margin: 4px 0 0;
+	padding: 0;
+	font-size: 14px;
+	opacity: 0.7;
+}

@@ -1,6 +1,6 @@
 *,
-*::before,
-*::after {
+*::after,
+*::before {
 	box-sizing: inherit;
 }
 
@@ -10,14 +10,16 @@ html {
 }
 
 body {
+	font-family: $font-family-karla;
 	-webkit-font-smoothing: antialiased;
 	text-decoration-skip: objects;
 	text-rendering: optimizeLegibility;
 	text-size-adjust: 100%;
 	-webkit-tap-highlight-color: transparent;
+	background-color: $color-black-squeeze;
 }
 
-button:not([disabled]),
-a[role="button"]:not([disabled]) {
+a[role="button"]:not([disabled]),
+button:not([disabled]) {
 	cursor: pointer;
 }

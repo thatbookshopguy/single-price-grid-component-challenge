@@ -1,0 +1,45 @@
+.subscribe {
+	margin: 0;
+	padding: 40px 0 38px 40px;
+	width: 317px;
+	color: $color-white;
+	background-color: $color-shamrock;
+}
+
+.subscribe__title {
+	margin: 0;
+	font-size: 18px;
+}
+
+.subscribe__price {
+	position: relative;
+	margin: 28px 0 0 73px;
+	color: $color-riptide;
+}
+
+.subscribe__fee {
+	position: absolute;
+	left: -73px;
+	top: -9px;
+	font-weight: $bold;
+	font-size: 32px;
+	color: $color-white;
+}
+
+.subscribe__text {
+	margin: 17px 0 0;
+}
+
+.subscribe__btn {
+	margin: 30px 0 0;
+	border-color: transparent;
+	border-radius: 5px;
+	padding: 2px 0 0;
+	width: 238px;
+	height: 48px;
+	box-shadow: 10px 5px 20px 0 rgba(0, 0, 0, 0.3);
+	font-weight: $bold;
+	letter-spacing: inherit;
+	color: inherit;
+	background-color: $color-pear;
+}

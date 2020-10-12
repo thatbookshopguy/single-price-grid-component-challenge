@@ -2,14 +2,15 @@
 
 // COLORS
 
-$color-black: #000;
 $color-white: #fff;
+$color-gray-chateau: #a3a7b0;
+$color-black-squeeze: #e6eff6;
+$color-shamrock: #2bb3b1;
+$color-fountain-blue: #4abebd;
+$color-riptide: #88e1df;
+$color-pear: #bfdf32;
 
 // FONTS
+$font-family-karla: "Karla", "Arial", sans-serif;
 
-// EASING TRANSITIONS
-$duration-normal: 0.4s;
-$easing-back-out: cubic-bezier(0.25, 0.74, 0.22, 1.1); // http://cubic-bezier.com/#.25,.74,.22,1.1
-$easing-back-in: cubic-bezier(0.47, -0.1, 0.5, -0.06); // http://cubic-bezier.com/#.47,-0.1,.5,-.06
-$easing-out: ease-out;
-$easing-in: ease-in;
+$bold: 700;
