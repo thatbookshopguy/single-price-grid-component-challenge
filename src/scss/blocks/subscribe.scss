@@ -4,17 +4,31 @@
 	width: 317px;
 	color: $color-white;
 	background-color: $color-shamrock;
+
+	@include mobile {
+		padding: 26px 0 24px 24px;
+	}
 }
 
 .subscribe__title {
 	margin: 0;
-	font-size: 18px;
+	font-size: 1.125em;
+
+	@include mobile {
+		font-size: 1.4em;
+		letter-spacing: -0.022em;
+	}
 }
 
 .subscribe__price {
 	position: relative;
 	margin: 28px 0 0 73px;
 	color: $color-riptide;
+
+	@include mobile {
+		margin: 28px 0 0 72px;
+		font-size: 1.2em;
+	}
 }
 
 .subscribe__fee {
@@ -22,12 +36,17 @@
 	left: -73px;
 	top: -9px;
 	font-weight: $bold;
-	font-size: 32px;
+	font-size: 2em;
 	color: $color-white;
 }
 
 .subscribe__text {
 	margin: 17px 0 0;
+
+	@include mobile {
+		margin: 18px 0 0;
+		font-size: 1.2em;
+	}
 }
 
 .subscribe__btn {
@@ -42,4 +61,9 @@
 	letter-spacing: inherit;
 	color: inherit;
 	background-color: $color-pear;
+
+	@include mobile {
+		width: 92%;
+		font-size: 1.2em;
+	}
 }

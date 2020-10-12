@@ -1,6 +1,10 @@
 .intro {
 	margin: 0;
 	padding: 41px 0 41px 40px;
+
+	@include mobile {
+		padding: 29px 0 32px 24px;
+	}
 }
 
 .intro__title {
@@ -11,12 +15,23 @@
 .intro__subtitle {
 	margin: 25px 0 0;
 	font-weight: $bold;
-	font-size: 18px;
+	font-size: 1.125em;
 	color: $color-pear;
+
+	@include mobile {
+		line-height: 1.4em;
+	}
 }
 
 .intro__text {
 	margin: 11px 0 0;
-	line-height: 26px;
+	line-height: 1.625em;
 	color: #a3a7b0;
+
+	@include mobile {
+		margin: 15px 0 0;
+		width: 92%;
+		line-height: 2em;
+		letter-spacing: 0.02em;
+	}
 }

@@ -12,11 +12,16 @@ html {
 body {
 	font-family: $font-family-karla;
 	-webkit-font-smoothing: antialiased;
+	font-size: 16px;
 	text-decoration-skip: objects;
 	text-rendering: optimizeLegibility;
 	text-size-adjust: 100%;
 	-webkit-tap-highlight-color: transparent;
 	background-color: $color-black-squeeze;
+
+	@include mobile {
+		font-size: 13px;
+	}
 }
 
 a[role="button"]:not([disabled]),

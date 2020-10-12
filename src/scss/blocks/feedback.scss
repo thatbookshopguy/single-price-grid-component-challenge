@@ -7,6 +7,12 @@
 	border-radius: 8px;
 	width: 635px;
 	box-shadow: 10px 5px 20px 0 rgba(0, 0, 0, 0.3);
-	letter-spacing: -0.2px;
+	letter-spacing: -0.013em;
 	background-color: $color-white;
+
+	@include mobile {
+		margin: 72px auto 0;
+		width: calc(100% - 104px);
+		letter-spacing: 0;
+	}
 }
