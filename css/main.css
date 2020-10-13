@@ -393,7 +393,7 @@ button:not([disabled]) {
   -webkit-border-radius: 8px;
      -moz-border-radius: 8px;
           border-radius: 8px;
-  width: 635px;
+  min-width: 635px;
   -webkit-box-shadow: 10px 5px 20px 0 rgba(0, 0, 0, 0.3);
      -moz-box-shadow: 10px 5px 20px 0 rgba(0, 0, 0, 0.3);
           box-shadow: 10px 5px 20px 0 rgba(0, 0, 0, 0.3);
@@ -410,7 +410,8 @@ button:not([disabled]) {
 .about {
   margin: 0;
   padding: 40px 0 38px 40px;
-  width: 318px;
+  width: 317px;
+  min-width: 50%;
   color: #fff;
   background-color: #4abebd; }
   @media (max-width: 1024px) {
@@ -477,6 +478,7 @@ button:not([disabled]) {
   margin: 0;
   padding: 40px 0 38px 40px;
   width: 317px;
+  min-width: 50%;
   color: #fff;
   background-color: #2bb3b1; }
   @media (max-width: 1024px) {
