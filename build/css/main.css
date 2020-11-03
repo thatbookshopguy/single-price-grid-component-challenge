@@ -393,7 +393,7 @@ button:not([disabled]) {
   -webkit-border-radius: 8px;
      -moz-border-radius: 8px;
           border-radius: 8px;
-  min-width: 635px;
+  width: 635px;
   -webkit-box-shadow: 10px 5px 20px 0 rgba(0, 0, 0, 0.3);
      -moz-box-shadow: 10px 5px 20px 0 rgba(0, 0, 0, 0.3);
           box-shadow: 10px 5px 20px 0 rgba(0, 0, 0, 0.3);
@@ -416,7 +416,8 @@ button:not([disabled]) {
   background-color: #4abebd; }
   @media (max-width: 1024px) {
     .about {
-      padding: 26px 0 24px 24px; } }
+      padding: 26px 0 24px 24px;
+      width: 100%; } }
 
 .about__title {
   margin: 0;
@@ -483,7 +484,8 @@ button:not([disabled]) {
   background-color: #2bb3b1; }
   @media (max-width: 1024px) {
     .subscribe {
-      padding: 26px 0 24px 24px; } }
+      padding: 26px 0 24px 24px;
+      width: 100%; } }
 
 .subscribe__title {
   margin: 0;
